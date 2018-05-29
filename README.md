@@ -15,8 +15,9 @@
 
     + **绘图**
     
-    1. 连线图(颜色): relation.py
-    2. 打印机效果(动图)：printer.py
+       1. 连线图(颜色): relation.py
+    
+       2. 打印机效果(动图)：printer.py
     
     
     

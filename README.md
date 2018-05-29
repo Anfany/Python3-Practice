@@ -21,7 +21,7 @@
     
        2. 打印机效果(动图)：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/printer.py)
           
-          ![image](https://github.com/Anfany/Python3-Practice/blob/master/AnFany.gif)
+          ![image](https://github.com/Anfany/Python3-Practice/blob/master/anfany.gif)
     
     
     

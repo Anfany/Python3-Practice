@@ -17,7 +17,7 @@
     
        1. 连线图(颜色): [relation.py](https://github.com/Anfany/Python3-Practice/blob/master/relation.py)
        
-          
+          [!image](https://github.com/Anfany/Python3-Practice/blob/master/puzzle.png)
     
        2. 打印机效果(动图)：printer.py
     

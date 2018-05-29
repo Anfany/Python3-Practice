@@ -19,7 +19,9 @@
        
           ![image](https://github.com/Anfany/Python3-Practice/blob/master/puzzle.png)
     
-       2. 打印机效果(动图)：printer.py
+       2. 打印机效果(动图)：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/printer.py)
+          
+          ![image](https://github.com/Anfany/Python3-Practice/blob/master/AnFany.gif)
     
     
     

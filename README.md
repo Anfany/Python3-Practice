@@ -9,9 +9,10 @@
     
     + **matplotlib**
     
-        + 显示中文
+        1. 显示中文与负号
           
-          ''' import'''
+          from pylab import mpl 
+          mpl.rcParams['font.sans-serif'] = ['FangSong'] # 中文字体名称
     
 
 

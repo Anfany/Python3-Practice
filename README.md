@@ -9,7 +9,7 @@
     
     + **matplotlib**
     
-     1. 显示中文与负号
+       1. 显示中文与负号
           
           from pylab import mpl  
           mpl.rcParams['font.sans-serif'] = ['FangSong'] # 中文字体名称

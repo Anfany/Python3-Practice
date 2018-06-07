@@ -19,9 +19,7 @@
    
 * **实例程序**
 
-     + **连线图&不同颜色**: [relation.py](https://github.com/Anfany/Python3-Practice/blob/master/relation.py)
-       
-          ![image](https://github.com/Anfany/Python3-Practice/blob/master/puzzle.png)
+     + **连线图&不同颜色**: [relation.py](https://github.com/Anfany/Python3-Practice/blob/master/relation.py)![image](https://github.com/Anfany/Python3-Practice/blob/master/puzzle.png)
     
      + **打印机效果&动图**：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/printer.py)
           

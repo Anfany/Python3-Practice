@@ -15,12 +15,12 @@
     
 * **实例程序**
 
-     + **连线图&不同颜色**: [relation.py](https://github.com/Anfany/Python3-Practice/blob/master/relation.py)
+     + **连线图&不同颜色**: [relation.py](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/relation.py)
      
-     ![image](https://github.com/Anfany/Python3-Practice/blob/master/puzzle.png)
+     ![image](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/puzzle.png)
     
-     + **打印机效果&动图**：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/printer.py)
+     + **打印机效果&动图**：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/printer.py)
      
-     ![image](https://github.com/Anfany/Python3-Practice/blob/master/anfany.gif)
+     ![image](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/anfany.gif)
 
 

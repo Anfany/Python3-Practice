@@ -22,5 +22,10 @@
      + **打印机效果&动图**：[printer.py](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/printer.py)
      
      ![image](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/anfany.gif)
+     
+         
+     + **多轴&不同颜色**：[Multi.py](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/Multi.py)
+     
+     ![image](https://github.com/Anfany/Python3-Practice/blob/master/Matplotlib/multi.png)
 
 

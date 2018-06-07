@@ -6,7 +6,7 @@
     
     + **字典**
     
-        + 选择最值：extreme.py
+        + 选择最值：[extreme.py](https://github.com/Anfany/Python3-Practice/blob/master/Python3/extreme.py)
         
         + 字典合并：
     

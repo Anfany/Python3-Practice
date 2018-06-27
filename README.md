@@ -19,7 +19,7 @@
        
        + **Oracle**
        
-       + **[SQL Server]()**
+       + **[SQL Server](https://github.com/Anfany/Python3-Practice/blob/master/Sqlserver.py)**
 
     + **爬虫**
     

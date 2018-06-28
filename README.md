@@ -15,7 +15,7 @@
     + 生成、识别二维码
     + [百度地图接口：获得两个中文地址之间的驾车距离](https://github.com/Anfany/Python3-Practice/blob/master/Map.py)**
     + 天气接口
-    + **.py**转**/.exe**
+    + **.py转.exe**
     + 云图制作
 *  **[工具小程序](https://github.com/Anfany/Python3-Practice/tree/master/Practice%20Tool)** 
     + 高级计算器界面

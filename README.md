@@ -8,6 +8,7 @@
     + **[Matplotlib](https://github.com/Anfany/Python3-Practice/tree/master/Matplotlib)**
     + **[TensorFlow](https://github.com/Anfany/Python3-Practice/tree/master/TensorFlow)**
 *  **Python可以的**
+    + SQL语句——sqlite3
     + 连接数据库
        + **[Oracle](https://github.com/Anfany/Python3-Practice/blob/master/Oracle.py)**
        + **[SQL Server](https://github.com/Anfany/Python3-Practice/blob/master/Sqlserver.py)**

@@ -24,7 +24,7 @@
  
 本项目建立的数据库为SQL_anFany.db，本地的文件储存在E:\sql_anfany。
 
-利用sqlite3包实现SQL语句的执行函数：
+**一、利用sqlite3包实现SQL语句的执行函数**
 
 ```
 import sqlite3
@@ -67,8 +67,13 @@ SQL(sql_insert)
 ```
 ![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table1.png)
 
-一、SQL语句：建表
 
+**二、SQL语句经典50题**
 
-
-二、SQL语句经典50题
+   + **基础数据表建立**
+   
+   
+   
+   + **50题详解**
+   
+   

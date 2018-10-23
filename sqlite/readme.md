@@ -48,7 +48,7 @@ def SQL(sql, db=r'E:\sql_anfany\SQL_anFany.db'):
 ```
 sql_create = ''' create table newtable
 (
-id int not null,
+id varchar(255) not null primary key,
 name varchar(255) not null,
 birthdate date
 )
@@ -61,11 +61,11 @@ SQL(sql_create)
 2.插入表内容
 ```
 sql_insert = '''insert into newtable
-values(1, '詹姆斯', '1984-12-30')
+values('001', 'Guido van Rossum', '1956-1-31')
 '''
 SQL(sql_insert)
 ```
-![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table1.png)
+![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/record.png)
 
 
 **二、SQL语句经典50题**

@@ -7,8 +7,8 @@
     + **[Pandas](https://github.com/Anfany/Python3-Practice/tree/master/Pandas)**
     + **[Matplotlib](https://github.com/Anfany/Python3-Practice/tree/master/Matplotlib)**
     + **[TensorFlow](https://github.com/Anfany/Python3-Practice/tree/master/TensorFlow)**
+    + **[Sqlite3](https://github.com/Anfany/Python3-Practice/tree/master/sqlite)**
 *  **Python可以的**
-    + [学习SQL语句——sqlite3](https://github.com/Anfany/Python3-Practice/tree/master/sqlite)
     + 连接数据库
        + **[Oracle](https://github.com/Anfany/Python3-Practice/blob/master/Oracle.py)**
        + **[SQL Server](https://github.com/Anfany/Python3-Practice/blob/master/Sqlserver.py)**

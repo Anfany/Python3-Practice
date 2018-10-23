@@ -26,7 +26,6 @@
 
 利用sqlite3包实现SQL语句的执行函数：
 
-举例：
 ```
 import sqlite3
 
@@ -43,19 +42,30 @@ def SQL(sql, db=r'E:\sql_anfany\SQL_anFany.db'):
     print("执行成功")
     cn.commit()
     cn.close()
-
-sql_create = ''' create table newtable(
+```
+举例：
+1. 创建表
+```
+sql_create = ''' create table newtable
+(
 id int not null,
 name varchar(255) not null,
-birthdate data
+birthdate date
 )
 '''
 SQL(sql_create)
 ```
-结果：
 
-
-
+ ![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table.png)
+ 
+2.插入表内容
+```
+sql_insert = '''insert into newtable
+values(1, '詹姆斯', '1984-12-30')
+'''
+SQL(sql_insert)
+```
+![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table.png)
 
 一、SQL语句：建表
 

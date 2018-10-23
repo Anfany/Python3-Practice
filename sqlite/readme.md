@@ -6,7 +6,11 @@
  
  如图：
  
- ![image]()
+ ![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/db.png)
+ 
+ 本地数据库建立完成后
+ 
+ ![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/db1.png)
  
  2. 安装Python包**sqlite3**，可利用**Anconda**安装。
  

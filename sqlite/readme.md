@@ -65,7 +65,7 @@ values(1, '詹姆斯', '1984-12-30')
 '''
 SQL(sql_insert)
 ```
-![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table.png)
+![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/table1.png)
 
 一、SQL语句：建表
 

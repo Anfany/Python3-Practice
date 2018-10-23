@@ -24,7 +24,35 @@
  
 本项目建立的数据库为SQL_anFany.db，本地的文件储存在E:\sql_anfany。
 
-利用sqlite3实现SQL语句的执行：
+利用sqlite3包实现SQL语句的执行函数：
+
+举例：
+```
+import sqlite3
+
+#  利用sqlite3包实现SQL语句的执行函数
+def SQL(sql, db=r'E:\sql_anfany\SQL_anFany.db'):
+    '''
+    :param sql: 要执行的sql语句
+    :param db: 需要连接的数据库
+    :return: 执行的sql语句的结果
+    '''
+    cn = sqlite3.connect(db)
+    c = cn.cursor()
+    c.execute(sql)
+    print("执行成功")
+    cn.commit()
+    cn.close()
+
+sql_create = ''' create table newtable(
+id int not null,
+name varchar(255) not null,
+birthdate data
+)
+'''
+SQL(sql_create)
+```
+结果：
 
 
 

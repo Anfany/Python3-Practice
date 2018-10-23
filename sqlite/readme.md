@@ -1,6 +1,6 @@
-# 基于sqlite3的SQL语句训练
+# 基于Navicat for SQLite的SQL语句训练
 
-建立本地数据库，轻松实现SQL语句的学习。
+利用Python包sqlite3建立本地数据表，结合Navicat for SQLite轻松实现SQL语句的学习。
 
  1. 安装Python包**sqlite3**，可利用**Anconda**安装。
 ```

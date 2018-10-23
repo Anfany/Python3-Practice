@@ -28,6 +28,8 @@
 
 ```
 import sqlite3
+import traceback  # 打印错误的详细信息
+
 
 #  利用sqlite3包实现SQL语句的执行函数
 def SQL(sql, db=r'E:\sql_anfany\SQL_anFany.db'):
@@ -36,12 +38,16 @@ def SQL(sql, db=r'E:\sql_anfany\SQL_anFany.db'):
     :param db: 需要连接的数据库
     :return: 执行的sql语句的结果
     '''
-    cn = sqlite3.connect(db)
-    c = cn.cursor()
-    c.execute(sql)
-    print("执行成功")
-    cn.commit()
-    cn.close()
+    try:
+        cn = sqlite3.connect(db)
+        c = cn.cursor()
+        c.execute(sql)
+        print("执行成功")
+        cn.commit()
+        cn.close()
+    except Exception as e:
+        print('SQL语句错误：%s' % e)
+        print('详细：\n', traceback.format_exc())
 ```
 举例：
 1. 创建表

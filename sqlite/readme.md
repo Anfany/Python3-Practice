@@ -74,12 +74,6 @@ SQL(sql_insert)
 ![image](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/record.png)
 
 
-**二、SQL语句经典50题**
+**[二、SQL语句经典50题](https://github.com/Anfany/Python3-Practice/blob/master/sqlite/%E7%BB%8F%E5%85%B850.md)**
 
-   + **基础数据表建立**
-   
-   
-   
-   + **50题详解**
-   
-   
+**三、SQL语句进阶题**

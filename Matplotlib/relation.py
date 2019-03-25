@@ -11,7 +11,7 @@ os.chdir(r'C:\Users\GWT9\Desktop')
 
 
 #  题目和关键词对应关系字典
-prodict = {'s': '数独', 'n': 'N皇后', 'h': '汉诺塔', 'd': '24点', 'm': '幻方', 'p': '完美迷宫'}
+prodict = {'s': '数独', 'n': 'N皇后', 'h': '汉诺塔', 'd': '24点', 'm': '幻方', 'p': '完美迷宫', 'c': '凸包'}
 front = 'KaiTi'
 #  颜色中去掉轻的，和黑色的
 # yanse = np.array([hco for hco in list(mcolors.cnames.keys()) if hco not \
@@ -19,14 +19,15 @@ front = 'KaiTi'
 #                       'black', 'seashell', 'ivory', 'ghostwhite', 'beige', 'snow']])
 # 选取几种颜色
 yanse = ['firebrick', 'royalblue', 'darkgreen', 'darkorange', \
-                  'darkviolet', 'gold']
+                  'darkviolet', 'navy', 'indigo']
 
 
 #  随机取得位置的函数
-def  suiji(exdict):
+def suiji(exdict):
     exlist = np.linspace(1.5, len(exdict) + 0.5, len(exdict))
     np.random.shuffle(exlist)
     return exlist
+
 
 #  绘制图片
 def figure(exdict, ziti=front, secai=yanse):
@@ -53,4 +54,8 @@ def figure(exdict, ziti=front, secai=yanse):
     plt.savefig(r'.\puzzle.png')
     plt.show()
 
+
 figure(prodict)
+
+
+

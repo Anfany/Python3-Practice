@@ -11,7 +11,7 @@ os.chdir(r'C:\Users\GWT9\Desktop')
 
 
 #  题目和关键词对应关系字典
-prodict = {'s': '数独', 'n': 'N皇后', 'h': '汉诺塔', 'd': '24点', 'm': '幻方', 'p': '完美迷宫', 'c': '凸包', 'o': '一笔画'}
+prodict = {'s': '数独', 'n': 'N皇后', 'h': '汉诺塔', 'd': '24点', 'm': '幻方', 'p': '完美迷宫', 'c': '凸包', 'o': '一笔画完'}
 front = 'KaiTi'
 #  颜色中去掉轻的，和黑色的
 # yanse = np.array([hco for hco in list(mcolors.cnames.keys()) if hco not \

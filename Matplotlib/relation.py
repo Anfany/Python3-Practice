@@ -11,7 +11,7 @@ os.chdir(r'C:\Users\GWT9\Desktop')
 
 #  题目和关键词对应关系字典
 prodict = {'s': '数独', 'n': 'N皇后', 'h': '汉诺塔', 'd': '24点', 'm': '幻方', 'p': '完美迷宫', 'c': '凸包',
-           'b': '七桥', 'o': '一笔画完'}
+           'b': '七桥', 'o': '一笔画完', 'a': '变态曲线', 't': '旅行商'}
 
 front = 'KaiTi'
 #  颜色中去掉轻的，和黑色的
@@ -20,7 +20,7 @@ front = 'KaiTi'
 #                       'black', 'seashell', 'ivory', 'ghostwhite', 'beige', 'snow']])
 # 选取几种颜色
 yanse = ['firebrick', 'royalblue', 'darkgreen', 'darkorange',
-         'darkviolet', 'navy', 'indigo', (145/255, 148/255, 198/255)]
+         'darkviolet', 'navy', 'indigo', (145/255, 148/255, 198/255), 'tab:red', 'tab:green', 'tab:orange']
 
 
 #  随机取得位置的函数
@@ -57,6 +57,8 @@ def figure(exdict, ziti=front, secai=yanse):
 
 
 figure(prodict)
+
+
 
 
 
